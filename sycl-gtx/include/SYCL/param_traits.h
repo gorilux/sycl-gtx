@@ -3,6 +3,8 @@
 #include "SYCL/detail/common.h"
 #include "SYCL/info.h"
 
+#pragma GCC diagnostic ignored "-Wignored-attributes"
+
 namespace cl {
 namespace sycl {
 

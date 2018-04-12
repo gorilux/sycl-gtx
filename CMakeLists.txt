@@ -27,8 +27,8 @@ set(SYCL_GTX_INCLUDE_PATH ${CMAKE_SOURCE_DIR}/sycl-gtx/include)
 add_subdirectory(sycl-gtx)
 
 # Tests
-enable_testing()
-add_subdirectory(tests)
+#enable_testing()
+#add_subdirectory(tests)
 
 # Other projects
-add_subdirectory(smallpt)
+#add_subdirectory(smallpt)
