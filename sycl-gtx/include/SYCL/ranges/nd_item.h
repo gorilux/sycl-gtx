@@ -73,7 +73,11 @@ struct nd_item {
   }
   size_t get_group_linear_id() const {
     // TODO(progtx):
+<<<<<<< HEAD
       return 0;
+=======
+      return local_item.linear_id();
+>>>>>>> ea22897f47e1c3813b357bf94894ab35b18accd3
   }
 
   // TODO(progtx):
